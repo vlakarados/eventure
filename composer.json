@@ -1,0 +1,15 @@
+{
+    "name": "vlakarados/eventure",
+    "description": "Auryn based event dispatching",
+    "type": "composer-plugin",
+    "require": {
+        "rdlowrey/auryn": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "Sergey Telshevsky",
+            "email": "vlakarados@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
