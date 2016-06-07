@@ -2,8 +2,11 @@
 
 require_once(__DIR__.'/../vendor/autoload.php');
 
+/*
+// Without composer autoloading
 require_once(__DIR__.'/../src/Dispatcher.php');
 require_once(__DIR__.'/../src/NotFoundException.php');
+*/
 
 require_once(__DIR__.'/../example/ExampleDispatcher.php');
 

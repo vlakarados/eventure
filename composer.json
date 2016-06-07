@@ -11,5 +11,10 @@
             "email": "vlakarados@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Eventure\\": "src"
+        }
+    },
     "minimum-stability": "dev"
 }
