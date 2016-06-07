@@ -1,7 +1,7 @@
 {
     "name": "vlakarados/eventure",
     "description": "Auryn based event dispatching",
-    "type": "composer-plugin",
+    "type": "library",
     "require": {
         "rdlowrey/auryn": "^1.0"
     },
