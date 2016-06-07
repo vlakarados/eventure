@@ -1,11 +1,11 @@
 # eventure
-Auryn based events
+[Auryn](https://github.com/rdlowrey/auryn) event dispatching
 
 ## What
 
 A very small library to work with simple events.
 
-The whole point of this library is to allow Auryn to inject dependencies straight to your event methods.
+The whole point of this library is to allow [Auryn](https://github.com/rdlowrey/auryn) to inject dependencies straight to your event methods.
 
 ## Install
 
@@ -23,10 +23,15 @@ The whole point of this library is to allow Auryn to inject dependencies straigh
 
 ## Example
 
-Examples are in the `example/` directory, the [ExampleDispatcher](example/ExampleDispatcher.php) and the [test bootstrap file](example/test.php)
+Examples are in the `example/` directory, the [ExampleDispatcher](example/ExampleDispatcher.php) and the [test bootstrap file](example/test.php).
 
 
 ## TODO
 
 + Callback dispatchers
 + Remove method restriction
++ Better README.md
++ Better documentation
++ Any documentation, actually
++ Dispatcher class factory (?)
++ Static event calls like `\App\Dispatchers\User::dispatch('logIn', array('userId' => 12345))` or `\App\Dispatchers\User::logIn(array('userId' => 12345))` (?) 
