@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c9509ecfe08d7a178045b8bdcf76358",
-    "content-hash": "afc1c37d3b7181920e5d8c84f79996d7",
+    "hash": "5c520631ea7e08d285bf74702b6d8d47",
+    "content-hash": "bd3069ca576b7246d88fc76f2f386948",
     "packages": [
         {
             "name": "rdlowrey/auryn",

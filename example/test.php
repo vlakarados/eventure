@@ -22,9 +22,14 @@ class UserRepository
 }
 
 $injector = new \Auryn\Injector;
-$injector->share($injector); // you need to pass auryn to the dispatcher
+
+// you need to pass auryn to the dispatcher
+$injector->share($injector);
+
 
 $exampleDispatcher = $injector->make('\ExampleDispatcher');
+// or implement a setDispatcher($injector) method in your dispatcher and set it after creation)
+
 
 // Simple event without arguments
 $exampleDispatcher->dispatch('foo');

@@ -6,7 +6,7 @@ class Dispatcher
 {
     private $injector;
 
-    public function __construct(\Auryn\Injector $injector)
+    public function __construct(\Auryn\Injector $injector = null)
     {
         $this->injector = $injector;
     }

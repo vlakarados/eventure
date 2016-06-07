@@ -3,7 +3,7 @@
     "description": "Auryn based event dispatching",
     "type": "composer-plugin",
     "require": {
-        "rdlowrey/auryn": "^1.4"
+        "rdlowrey/auryn": "^1.0"
     },
     "authors": [
         {
